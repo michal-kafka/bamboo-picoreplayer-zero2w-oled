@@ -1,0 +1,4 @@
+assets/title-full.jpg
+.pycache/
+*.pyc
+__pycache__/
