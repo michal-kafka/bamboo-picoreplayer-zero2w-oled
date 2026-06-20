@@ -298,9 +298,9 @@ The `playerid` immediately before the desired `name` is the value to use.
 Configure the script either by editing the constants at the top or with environment variables:
 
 ```sh
-export LMS_HOST=192.168.2.62
-export PLAYER_ID=e4:5f:01:96:d5:9b
-export PLAYER_NAME=pCPrpi0
+export LMS_HOST=<LMS_HOST>
+export PLAYER_ID=<PLAYER_ID>
+export PLAYER_NAME=<PLAYER_NAME>
 ```
 
 Manual test:
@@ -318,9 +318,9 @@ modprobe i2c-dev
 (
   sleep 30
   modprobe i2c-dev
-  LMS_HOST=192.168.2.62 \
-  PLAYER_ID=e4:5f:01:96:d5:9b \
-  PLAYER_NAME=pCPrpi0 \
+  LMS_HOST=<LMS_HOST> \
+  PLAYER_ID=<PLAYER_ID> \
+  PLAYER_NAME=<PLAYER_NAME> \
   /usr/local/bin/python3 /home/tc/oled/oled_lms_power.py >/tmp/oled_lms.log 2>&1 &
 ) &
 ```

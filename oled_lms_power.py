@@ -7,10 +7,10 @@ import unicodedata
 import urllib.parse
 from datetime import datetime
 
-LMS_HOST = os.environ.get("LMS_HOST", "192.168.2.62")
+LMS_HOST = os.environ.get("LMS_HOST", "<LMS_HOST>")
 LMS_PORT = int(os.environ.get("LMS_PORT", "9090"))
-PLAYER_ID = os.environ.get("PLAYER_ID", "change:me:to:player:id")
-PLAYER_NAME = os.environ.get("PLAYER_NAME", "pCPrpi0")
+PLAYER_ID = os.environ.get("PLAYER_ID", "<PLAYER_ID>")
+PLAYER_NAME = os.environ.get("PLAYER_NAME", "<PLAYER_NAME>")
 
 I2C_SLAVE = 0x0703
 ADDR = 0x3C
