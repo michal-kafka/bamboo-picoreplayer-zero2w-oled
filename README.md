@@ -422,5 +422,3 @@ Expected:
 not pressed = 1
 pressed     = 0
 ```
-
-For four-leg tactile buttons, make sure the two wires are on opposite switched sides, not on the permanently-connected same side.
