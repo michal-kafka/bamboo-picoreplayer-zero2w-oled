@@ -20,7 +20,6 @@ PAM8403-style amplifier
 ## Hardware
 
 - Raspberry Pi Zero 2 W
-- piCorePlayer with Squeezelite
 - PCM5102A I2S DAC module
 - GF1002 / PAM8403-style stereo amplifier board with volume knob
 - 2x 8 ohm passive speakers
