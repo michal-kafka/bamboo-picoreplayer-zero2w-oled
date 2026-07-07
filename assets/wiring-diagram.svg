@@ -1,36 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
-  <title id="title">Raspberry Pi Zero 2 W piCorePlayer wiring diagram</title>
-  <desc id="desc">Wiring overview for Raspberry Pi Zero 2 W, PCM5102A DAC, PAM8403 amplifier, OLED display, buttons, and speakers.</desc>
-  <defs>
-    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d33f49"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1400"
+   height="980"
+   viewBox="0 0 1400 980"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg134"
+   sodipodi:docname="wiring-diagram.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview134"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.4817233"
+     inkscape:cx="687.68191"
+     inkscape:cy="352.76609"
+     inkscape:window-width="1449"
+     inkscape:window-height="921"
+     inkscape:window-x="63"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g55" />
+  <title
+     id="title">Raspberry Pi Zero 2 W piCorePlayer wiring diagram</title>
+  <desc
+     id="desc">Wiring overview for Raspberry Pi Zero 2 W, PCM5102A DAC, PAM8403 amplifier, OLED display, buttons, and speakers.</desc>
+  <defs
+     id="defs7">
+    <marker
+       id="arrow-red"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#d33f49"
+         id="path1" />
     </marker>
-    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d98324"/>
+    <marker
+       id="arrow-orange"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#d98324"
+         id="path2" />
     </marker>
-    <marker id="arrow-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#30343f"/>
+    <marker
+       id="arrow-black"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#30343f"
+         id="path3" />
     </marker>
-    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#246eb9"/>
+    <marker
+       id="arrow-blue"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#246eb9"
+         id="path4" />
     </marker>
-    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2c9a5f"/>
+    <marker
+       id="arrow-green"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#2c9a5f"
+         id="path5" />
     </marker>
-    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7c4dff"/>
+    <marker
+       id="arrow-purple"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#7c4dff"
+         id="path6" />
     </marker>
-    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#59606d"/>
+    <marker
+       id="arrow-gray"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#59606d"
+         id="path7" />
     </marker>
-    <style>
+    <style
+       id="style7">
       .bg { fill: #f8fafc; }
       .board { fill: #ffffff; stroke: #243042; stroke-width: 2; }
       .module { fill: #ffffff; stroke: #536176; stroke-width: 2; }
-      .title { font: 700 22px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
-      .label { font: 600 15px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
-      .small { font: 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #2e394d; }
-      .tiny { font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #2e394d; }
+      .title { font: 700 22px system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; fill: #172033; }
+      .label { font: 600 15px system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; fill: #172033; }
+      .small { font: 13px system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; fill: #2e394d; }
+      .tiny { font: 12px system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; fill: #2e394d; }
       .pin { fill: #f4f6f9; stroke: #9aa6b8; stroke-width: 1; }
       .pin-dot { fill: #f4f6f9; stroke: #8b98aa; stroke-width: 1.2; }
       .pin-5v { fill: #ffd9dc; stroke: #d33f49; stroke-width: 2; }
@@ -55,203 +161,1336 @@
       .legend { fill: #ffffff; stroke: #d1d8e3; stroke-width: 1.5; }
     </style>
   </defs>
-
-  <rect class="bg" x="0" y="0" width="1400" height="980"/>
-  <text class="title" x="700" y="42" text-anchor="middle">Bamboo piCorePlayer Zero 2 W Wiring Overview</text>
-
+  <rect
+     class="bg"
+     x="0"
+     y="0"
+     width="1400"
+     height="980"
+     id="rect7" />
+  <text
+     class="title"
+     x="700"
+     y="42"
+     text-anchor="middle"
+     id="text7">Bamboo piCorePlayer Zero 2 W Wiring Overview</text>
   <!-- Raspberry Pi Zero 2 W -->
-  <rect class="board" x="435" y="255" width="350" height="485" rx="16"/>
-  <text class="label" x="610" y="290" text-anchor="middle">Raspberry Pi Zero 2 W</text>
-  <text class="small" x="610" y="313" text-anchor="middle">piCorePlayer / Squeezelite</text>
-
-  <rect x="475" y="390" width="74" height="92" rx="6" fill="#e7edf4" stroke="#aab5c5"/>
-  <text class="tiny" x="512" y="430" text-anchor="middle">CPU</text>
-  <text class="tiny" x="512" y="448" text-anchor="middle">Wi-Fi</text>
-  <rect x="490" y="650" width="78" height="26" rx="4" fill="#e7edf4" stroke="#aab5c5"/>
-  <text class="tiny" x="529" y="668" text-anchor="middle">USB PWR</text>
-
+  <rect
+     class="board"
+     x="435"
+     y="255"
+     width="350"
+     height="485"
+     rx="16"
+     id="rect8" />
+  <text
+     class="label"
+     x="610"
+     y="290"
+     text-anchor="middle"
+     id="text8">Raspberry Pi Zero 2 W</text>
+  <text
+     class="small"
+     x="610"
+     y="313"
+     text-anchor="middle"
+     id="text9">piCorePlayer / Squeezelite</text>
+  <rect
+     x="475"
+     y="390"
+     width="74"
+     height="92"
+     rx="6"
+     fill="#e7edf4"
+     stroke="#aab5c5"
+     id="rect9" />
+  <text
+     class="tiny"
+     x="512"
+     y="430"
+     text-anchor="middle"
+     id="text10">CPU</text>
+  <text
+     class="tiny"
+     x="512"
+     y="448"
+     text-anchor="middle"
+     id="text11">Wi-Fi</text>
+  <rect
+     x="490"
+     y="650"
+     width="78"
+     height="26"
+     rx="4"
+     fill="#e7edf4"
+     stroke="#aab5c5"
+     id="rect11" />
+  <text
+     class="tiny"
+     x="529"
+     y="668"
+     text-anchor="middle"
+     id="text12">USB PWR</text>
   <!-- Full 40-pin GPIO header. Odd pins are on the left, even pins on the right. -->
-  <g>
-    <text class="label" x="688" y="340" text-anchor="middle">40-pin GPIO header</text>
-    <text class="tiny" x="654" y="356" text-anchor="middle">odd</text>
-    <text class="tiny" x="690" y="356" text-anchor="middle">even</text>
-
-    <text class="tiny" x="642" y="364" text-anchor="end">1 3V3</text><circle class="pin-dot pin-3v3" cx="654" cy="360" r="5"/><circle class="pin-dot pin-5v" cx="690" cy="360" r="5"/><text class="tiny" x="702" y="364">2 5V</text>
-    <text class="tiny" x="642" y="379" text-anchor="end">3 SDA</text><circle class="pin-dot pin-i2c" cx="654" cy="375" r="5"/><circle class="pin-dot pin-5v" cx="690" cy="375" r="5"/><text class="tiny" x="702" y="379">4 5V</text>
-    <text class="tiny" x="642" y="394" text-anchor="end">5 SCL</text><circle class="pin-dot pin-i2c" cx="654" cy="390" r="5"/><circle class="pin-dot pin-gnd" cx="690" cy="390" r="5"/><text class="tiny" x="702" y="394">6 GND</text>
-    <text class="tiny" x="642" y="409" text-anchor="end">7 GPIO4</text><circle class="pin-dot" cx="654" cy="405" r="5"/><circle class="pin-dot" cx="690" cy="405" r="5"/><text class="tiny" x="702" y="409">8 GPIO14</text>
-    <text class="tiny" x="642" y="424" text-anchor="end">9 GND</text><circle class="pin-dot pin-gnd" cx="654" cy="420" r="5"/><circle class="pin-dot" cx="690" cy="420" r="5"/><text class="tiny" x="702" y="424">10 GPIO15</text>
-    <text class="tiny" x="642" y="439" text-anchor="end">11 GPIO17</text><circle class="pin-dot" cx="654" cy="435" r="5"/><circle class="pin-dot pin-i2s" cx="690" cy="435" r="5"/><text class="tiny" x="702" y="439">12 BCK</text>
-    <text class="tiny" x="642" y="454" text-anchor="end">13 GPIO27</text><circle class="pin-dot" cx="654" cy="450" r="5"/><circle class="pin-dot pin-gnd" cx="690" cy="450" r="5"/><text class="tiny" x="702" y="454">14 GND</text>
-    <text class="tiny" x="642" y="469" text-anchor="end">15 GPIO22</text><circle class="pin-dot" cx="654" cy="465" r="5"/><circle class="pin-dot pin-button" cx="690" cy="465" r="5"/><text class="tiny" x="702" y="469">16 GPIO23</text>
-    <text class="tiny" x="642" y="484" text-anchor="end">17 3V3</text><circle class="pin-dot pin-3v3" cx="654" cy="480" r="5"/><circle class="pin-dot pin-button" cx="690" cy="480" r="5"/><text class="tiny" x="702" y="484">18 GPIO24</text>
-    <text class="tiny" x="642" y="499" text-anchor="end">19 GPIO10</text><circle class="pin-dot" cx="654" cy="495" r="5"/><circle class="pin-dot pin-gnd" cx="690" cy="495" r="5"/><text class="tiny" x="702" y="499">20 GND</text>
-    <text class="tiny" x="642" y="514" text-anchor="end">21 GPIO9</text><circle class="pin-dot" cx="654" cy="510" r="5"/><circle class="pin-dot" cx="690" cy="510" r="5"/><text class="tiny" x="702" y="514">22 GPIO25</text>
-    <text class="tiny" x="642" y="529" text-anchor="end">23 GPIO11</text><circle class="pin-dot" cx="654" cy="525" r="5"/><circle class="pin-dot" cx="690" cy="525" r="5"/><text class="tiny" x="702" y="529">24 GPIO8</text>
-    <text class="tiny" x="642" y="544" text-anchor="end">25 GND</text><circle class="pin-dot pin-gnd" cx="654" cy="540" r="5"/><circle class="pin-dot" cx="690" cy="540" r="5"/><text class="tiny" x="702" y="544">26 GPIO7</text>
-    <text class="tiny" x="642" y="559" text-anchor="end">27 GPIO0</text><circle class="pin-dot" cx="654" cy="555" r="5"/><circle class="pin-dot" cx="690" cy="555" r="5"/><text class="tiny" x="702" y="559">28 GPIO1</text>
-    <text class="tiny" x="642" y="574" text-anchor="end">29 GPIO5</text><circle class="pin-dot" cx="654" cy="570" r="5"/><circle class="pin-dot pin-gnd" cx="690" cy="570" r="5"/><text class="tiny" x="702" y="574">30 GND</text>
-    <text class="tiny" x="642" y="589" text-anchor="end">31 GPIO6</text><circle class="pin-dot" cx="654" cy="585" r="5"/><circle class="pin-dot" cx="690" cy="585" r="5"/><text class="tiny" x="702" y="589">32 GPIO12</text>
-    <text class="tiny" x="642" y="604" text-anchor="end">33 GPIO13</text><circle class="pin-dot" cx="654" cy="600" r="5"/><circle class="pin-dot pin-gnd" cx="690" cy="600" r="5"/><text class="tiny" x="702" y="604">34 GND</text>
-    <text class="tiny" x="642" y="619" text-anchor="end">35 RCK</text><circle class="pin-dot pin-i2s" cx="654" cy="615" r="5"/><circle class="pin-dot" cx="690" cy="615" r="5"/><text class="tiny" x="702" y="619">36 GPIO16</text>
-    <text class="tiny" x="642" y="634" text-anchor="end">37 GPIO26</text><circle class="pin-dot" cx="654" cy="630" r="5"/><circle class="pin-dot" cx="690" cy="630" r="5"/><text class="tiny" x="702" y="634">38 GPIO20</text>
-    <text class="tiny" x="642" y="649" text-anchor="end">39 GND</text><circle class="pin-dot pin-gnd" cx="654" cy="645" r="5"/><circle class="pin-dot pin-i2s" cx="690" cy="645" r="5"/><text class="tiny" x="702" y="649">40 DIN</text>
+  <g
+     id="g55">
+    <text
+       class="label"
+       x="688"
+       y="340"
+       text-anchor="middle"
+       id="text13">40-pin GPIO header</text>
+    <text
+       class="tiny"
+       x="642"
+       y="364"
+       text-anchor="end"
+       id="text16">1 3V3</text>
+    <circle
+       class="pin-dot pin-3v3"
+       cx="654"
+       cy="360"
+       r="5"
+       id="circle16" />
+    <circle
+       class="pin-dot pin-5v"
+       cx="690"
+       cy="360"
+       r="5"
+       id="circle17" />
+    <text
+       class="tiny"
+       x="702"
+       y="364"
+       id="text17">2 5V</text>
+    <text
+       class="tiny"
+       x="642"
+       y="379"
+       text-anchor="end"
+       id="text18">3 SDA</text>
+    <circle
+       class="pin-dot pin-i2c"
+       cx="654"
+       cy="375"
+       r="5"
+       id="circle18" />
+    <circle
+       class="pin-dot pin-5v"
+       cx="690"
+       cy="375"
+       r="5"
+       id="circle19" />
+    <text
+       class="tiny"
+       x="702"
+       y="379"
+       id="text19">4 5V</text>
+    <text
+       class="tiny"
+       x="642"
+       y="394"
+       text-anchor="end"
+       id="text20">5 SCL</text>
+    <circle
+       class="pin-dot pin-i2c"
+       cx="654"
+       cy="390"
+       r="5"
+       id="circle20" />
+    <circle
+       class="pin-dot pin-gnd"
+       cx="690"
+       cy="390"
+       r="5"
+       id="circle21" />
+    <text
+       class="tiny"
+       x="702"
+       y="394"
+       id="text21">6 GND</text>
+    <text
+       class="tiny"
+       x="642"
+       y="409"
+       text-anchor="end"
+       id="text22">7 GPIO4</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="405"
+       r="5"
+       id="circle22" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="405"
+       r="5"
+       id="circle23" />
+    <text
+       class="tiny"
+       x="702"
+       y="409"
+       id="text23">8 GPIO14</text>
+    <text
+       class="tiny"
+       x="642"
+       y="424"
+       text-anchor="end"
+       id="text24">9 GND</text>
+    <circle
+       class="pin-dot pin-gnd"
+       cx="654"
+       cy="420"
+       r="5"
+       id="circle24" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="420"
+       r="5"
+       id="circle25" />
+    <text
+       class="tiny"
+       x="702"
+       y="424"
+       id="text25">10 GPIO15</text>
+    <text
+       class="tiny"
+       x="642"
+       y="439"
+       text-anchor="end"
+       id="text26">11 GPIO17</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="435"
+       r="5"
+       id="circle26" />
+    <circle
+       class="pin-dot pin-i2s"
+       cx="690"
+       cy="435"
+       r="5"
+       id="circle27" />
+    <text
+       class="tiny"
+       x="702"
+       y="439"
+       id="text27">12 BCK</text>
+    <text
+       class="tiny"
+       x="642"
+       y="454"
+       text-anchor="end"
+       id="text28">13 GPIO27</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="450"
+       r="5"
+       id="circle28" />
+    <circle
+       class="pin-dot pin-gnd"
+       cx="690"
+       cy="450"
+       r="5"
+       id="circle29" />
+    <text
+       class="tiny"
+       x="702"
+       y="454"
+       id="text29">14 GND</text>
+    <text
+       class="tiny"
+       x="642"
+       y="469"
+       text-anchor="end"
+       id="text30">15 GPIO22</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="465"
+       r="5"
+       id="circle30" />
+    <circle
+       class="pin-dot pin-button"
+       cx="690"
+       cy="465"
+       r="5"
+       id="circle31" />
+    <text
+       class="tiny"
+       x="702"
+       y="469"
+       id="text31">16 GPIO23</text>
+    <text
+       class="tiny"
+       x="642"
+       y="484"
+       text-anchor="end"
+       id="text32">17 3V3</text>
+    <circle
+       class="pin-dot pin-3v3"
+       cx="654"
+       cy="480"
+       r="5"
+       id="circle32" />
+    <circle
+       class="pin-dot pin-button"
+       cx="690"
+       cy="480"
+       r="5"
+       id="circle33" />
+    <text
+       class="tiny"
+       x="702"
+       y="484"
+       id="text33">18 GPIO24</text>
+    <text
+       class="tiny"
+       x="642"
+       y="499"
+       text-anchor="end"
+       id="text34">19 GPIO10</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="495"
+       r="5"
+       id="circle34" />
+    <circle
+       class="pin-dot pin-gnd"
+       cx="690"
+       cy="495"
+       r="5"
+       id="circle35" />
+    <text
+       class="tiny"
+       x="702"
+       y="499"
+       id="text35">20 GND</text>
+    <text
+       class="tiny"
+       x="642"
+       y="514"
+       text-anchor="end"
+       id="text36">21 GPIO9</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="510"
+       r="5"
+       id="circle36" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="510"
+       r="5"
+       id="circle37" />
+    <text
+       class="tiny"
+       x="702"
+       y="514"
+       id="text37">22 GPIO25</text>
+    <text
+       class="tiny"
+       x="642"
+       y="529"
+       text-anchor="end"
+       id="text38">23 GPIO11</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="525"
+       r="5"
+       id="circle38" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="525"
+       r="5"
+       id="circle39" />
+    <text
+       class="tiny"
+       x="702"
+       y="529"
+       id="text39">24 GPIO8</text>
+    <text
+       class="tiny"
+       x="642"
+       y="544"
+       text-anchor="end"
+       id="text40">25 GND</text>
+    <circle
+       class="pin-dot pin-gnd"
+       cx="654"
+       cy="540"
+       r="5"
+       id="circle40" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="540"
+       r="5"
+       id="circle41" />
+    <text
+       class="tiny"
+       x="702"
+       y="544"
+       id="text41">26 GPIO7</text>
+    <text
+       class="tiny"
+       x="642"
+       y="559"
+       text-anchor="end"
+       id="text42">27 GPIO0</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="555"
+       r="5"
+       id="circle42" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="555"
+       r="5"
+       id="circle43" />
+    <text
+       class="tiny"
+       x="702"
+       y="559"
+       id="text43">28 GPIO1</text>
+    <text
+       class="tiny"
+       x="642"
+       y="574"
+       text-anchor="end"
+       id="text44">29 GPIO5</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="570"
+       r="5"
+       id="circle44" />
+    <circle
+       class="pin-dot pin-gnd"
+       cx="690"
+       cy="570"
+       r="5"
+       id="circle45" />
+    <text
+       class="tiny"
+       x="702"
+       y="574"
+       id="text45">30 GND</text>
+    <text
+       class="tiny"
+       x="642"
+       y="589"
+       text-anchor="end"
+       id="text46">31 GPIO6</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="585"
+       r="5"
+       id="circle46" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="585"
+       r="5"
+       id="circle47" />
+    <text
+       class="tiny"
+       x="702"
+       y="589"
+       id="text47">32 GPIO12</text>
+    <text
+       class="tiny"
+       x="642"
+       y="604"
+       text-anchor="end"
+       id="text48">33 GPIO13</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="600"
+       r="5"
+       id="circle48" />
+    <circle
+       class="pin-dot pin-gnd"
+       cx="690"
+       cy="600"
+       r="5"
+       id="circle49" />
+    <text
+       class="tiny"
+       x="702"
+       y="604"
+       id="text49">34 GND</text>
+    <text
+       class="tiny"
+       x="642"
+       y="619"
+       text-anchor="end"
+       id="text50">35 RCK</text>
+    <circle
+       class="pin-dot pin-i2s"
+       cx="654"
+       cy="615"
+       r="5"
+       id="circle50" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="615"
+       r="5"
+       id="circle51" />
+    <text
+       class="tiny"
+       x="702"
+       y="619"
+       id="text51">36 GPIO16</text>
+    <text
+       class="tiny"
+       x="642"
+       y="634"
+       text-anchor="end"
+       id="text52">37 GPIO26</text>
+    <circle
+       class="pin-dot"
+       cx="654"
+       cy="630"
+       r="5"
+       id="circle52" />
+    <circle
+       class="pin-dot"
+       cx="690"
+       cy="630"
+       r="5"
+       id="circle53" />
+    <text
+       class="tiny"
+       x="702"
+       y="634"
+       id="text53">38 GPIO20</text>
+    <text
+       class="tiny"
+       x="642"
+       y="649"
+       text-anchor="end"
+       id="text54">39 GND</text>
+    <circle
+       class="pin-dot pin-gnd"
+       cx="654"
+       cy="645"
+       r="5"
+       id="circle54" />
+    <circle
+       class="pin-dot pin-i2s"
+       cx="690"
+       cy="645"
+       r="5"
+       id="circle55" />
+    <text
+       class="tiny"
+       x="702"
+       y="649"
+       id="text55">40 DIN</text>
   </g>
-
   <!-- OLED -->
-  <rect class="module" x="455" y="88" width="300" height="120" rx="12"/>
-  <rect x="495" y="124" width="132" height="42" rx="5" fill="#202736" stroke="#4c596e"/>
-  <text class="label" x="665" y="128">I2C OLED</text>
-  <text class="small" x="665" y="152">SSD1306, address 0x3c</text>
-  <text class="tiny" x="665" y="174">4-pin I2C header</text>
-  <circle class="pin-dot pin-3v3" cx="665" cy="194" r="5"/><text class="tiny" x="677" y="198">VCC</text>
-  <circle class="pin-dot pin-gnd" cx="712" cy="194" r="5"/><text class="tiny" x="724" y="198">GND</text>
-  <circle class="pin-dot pin-i2c" cx="665" cy="110" r="5"/><text class="tiny" x="677" y="114">SDA</text>
-  <circle class="pin-dot pin-i2c" cx="712" cy="110" r="5"/><text class="tiny" x="724" y="114">SCL</text>
-
+  <rect
+     class="module"
+     x="455"
+     y="88"
+     width="300"
+     height="120"
+     rx="12"
+     id="rect55" />
+  <rect
+     x="495"
+     y="124"
+     width="132"
+     height="42"
+     rx="5"
+     fill="#202736"
+     stroke="#4c596e"
+     id="rect56" />
+  <text
+     class="label"
+     x="473.73953"
+     y="112.69917"
+     id="text56"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">I2C OLED</text>
+  <text
+     class="small"
+     x="593.24084"
+     y="117.93922"
+     id="text57"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">SSD1306, address 0x3c</text>
+  <text
+     class="tiny"
+     x="547.60602"
+     y="179.62169"
+     id="text58"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">4-pin I2C header</text>
+  <circle
+     class="pin-dot pin-3v3"
+     cx="509.4415"
+     cy="192.72493"
+     r="5"
+     id="circle58" />
+  <text
+     class="tiny"
+     x="518.89136"
+     y="197.36247"
+     id="text59"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">VCC</text>
+  <circle
+     class="pin-dot pin-gnd"
+     cx="554.5929"
+     cy="192.67725"
+     r="5"
+     id="circle59" />
+  <text
+     class="tiny"
+     x="563.6167"
+     y="197.33862"
+     id="text60"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">GND</text>
+  <circle
+     class="pin-dot pin-i2c"
+     cx="601.50806"
+     cy="192.67181"
+     r="5"
+     id="circle60" />
+  <text
+     class="tiny"
+     x="613.50806"
+     y="196.67181"
+     id="text61"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">SDA</text>
+  <circle
+     class="pin-dot pin-i2c"
+     cx="652.14563"
+     cy="192.67181"
+     r="5"
+     id="circle61" />
+  <text
+     class="tiny"
+     x="664.14563"
+     y="196.67181"
+     id="text62"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">SCL</text>
   <!-- DAC -->
-  <rect class="module" x="840" y="318" width="235" height="220" rx="12"/>
-  <text class="label" x="958" y="350" text-anchor="middle">PCM5102A DAC</text>
-  <text class="small" x="958" y="374" text-anchor="middle">I2S to line out</text>
-  <text class="tiny" x="868" y="402">Side header</text>
-  <circle class="pin-dot" cx="872" cy="422" r="5"/><text class="tiny" x="888" y="426">SCK open</text>
-  <circle class="pin-dot pin-i2s" cx="872" cy="440" r="5"/><text class="tiny" x="888" y="444">BCK</text>
-  <circle class="pin-dot pin-i2s" cx="872" cy="458" r="5"/><text class="tiny" x="888" y="462">DIN</text>
-  <circle class="pin-dot pin-i2s" cx="872" cy="476" r="5"/><text class="tiny" x="888" y="480">RCK / LRCK</text>
-  <circle class="pin-dot pin-gnd" cx="872" cy="494" r="5"/><text class="tiny" x="888" y="498">GND</text>
-  <circle class="pin-dot pin-5v" cx="872" cy="512" r="5"/><text class="tiny" x="888" y="516">VIN</text>
-  <text class="tiny" x="988" y="402">Bottom pins</text>
-  <circle class="pin-dot pin-purple" cx="990" cy="422" r="5"/><text class="tiny" x="1006" y="426">LROUT</text>
-  <circle class="pin-dot pin-gnd" cx="990" cy="440" r="5"/><text class="tiny" x="1006" y="444">AGND</text>
-  <circle class="pin-dot pin-purple" cx="990" cy="458" r="5"/><text class="tiny" x="1006" y="462">ROUT</text>
-  <circle class="pin-dot pin-3v3" cx="990" cy="476" r="5"/><text class="tiny" x="1006" y="480">3.3V</text>
-  <circle class="pin-dot" cx="990" cy="494" r="5"/><text class="tiny" x="1006" y="498">FMT / DEMP / FLT</text>
-  <circle class="pin-dot pin-3v3" cx="990" cy="512" r="5"/><text class="tiny" x="1006" y="516">XSMT</text>
-
+  <rect
+     class="module"
+     x="840"
+     y="318"
+     width="235"
+     height="220"
+     rx="12"
+     id="rect62" />
+  <text
+     class="label"
+     x="958"
+     y="350"
+     text-anchor="middle"
+     id="text63">PCM5102A DAC</text>
+  <text
+     class="small"
+     x="958"
+     y="374"
+     text-anchor="middle"
+     id="text64">I2S to line out</text>
+  <text
+     class="tiny"
+     x="868"
+     y="402"
+     id="text65">Side header</text>
+  <circle
+     class="pin-dot"
+     cx="872"
+     cy="422"
+     r="5"
+     id="circle65" />
+  <text
+     class="tiny"
+     x="888"
+     y="426"
+     id="text66">SCK open</text>
+  <circle
+     class="pin-dot pin-i2s"
+     cx="872"
+     cy="440"
+     r="5"
+     id="circle66" />
+  <text
+     class="tiny"
+     x="888"
+     y="444"
+     id="text67">BCK</text>
+  <circle
+     class="pin-dot pin-i2s"
+     cx="872"
+     cy="458"
+     r="5"
+     id="circle67" />
+  <text
+     class="tiny"
+     x="888"
+     y="462"
+     id="text68">DIN</text>
+  <circle
+     class="pin-dot pin-i2s"
+     cx="872"
+     cy="476"
+     r="5"
+     id="circle68" />
+  <text
+     class="tiny"
+     x="888"
+     y="480"
+     id="text69">RCK / LRCK</text>
+  <circle
+     class="pin-dot pin-gnd"
+     cx="872"
+     cy="494"
+     r="5"
+     id="circle69" />
+  <text
+     class="tiny"
+     x="888"
+     y="498"
+     id="text70">GND</text>
+  <circle
+     class="pin-dot pin-5v"
+     cx="872"
+     cy="512"
+     r="5"
+     id="circle70" />
+  <text
+     class="tiny"
+     x="888"
+     y="516"
+     id="text71">VIN</text>
+  <text
+     class="tiny"
+     x="988"
+     y="402"
+     id="text72">Bottom pins</text>
+  <circle
+     class="pin-dot pin-purple"
+     cx="990"
+     cy="422"
+     r="5"
+     id="circle72" />
+  <text
+     class="tiny"
+     x="1006"
+     y="426"
+     id="text73">LROUT</text>
+  <circle
+     class="pin-dot pin-gnd"
+     cx="990"
+     cy="440"
+     r="5"
+     id="circle73" />
+  <text
+     class="tiny"
+     x="1006"
+     y="444"
+     id="text74">AGND</text>
+  <circle
+     class="pin-dot pin-purple"
+     cx="990"
+     cy="458"
+     r="5"
+     id="circle74" />
+  <text
+     class="tiny"
+     x="1006"
+     y="462"
+     id="text75">ROUT</text>
+  <circle
+     class="pin-dot pin-3v3"
+     cx="990"
+     cy="476"
+     r="5"
+     id="circle75" />
+  <text
+     class="tiny"
+     x="1006"
+     y="480"
+     id="text76">3.3V</text>
+  <circle
+     class="pin-dot"
+     cx="990"
+     cy="494"
+     r="5"
+     id="circle76" />
+  <text
+     class="tiny"
+     x="1006"
+     y="498"
+     id="text77"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">FMT</text>
+  <circle
+     class="pin-dot pin-3v3"
+     cx="990"
+     cy="512"
+     r="5"
+     id="circle77" />
+  <text
+     class="tiny"
+     x="1006"
+     y="516"
+     id="text78">XSMT</text>
   <!-- Amp -->
-  <rect class="module" x="1130" y="325" width="220" height="230" rx="12"/>
-  <text class="label" x="1240" y="357" text-anchor="middle">PAM8403 Amp</text>
-  <text class="small" x="1240" y="381" text-anchor="middle">GF1002-style board</text>
-  <text class="tiny" x="1154" y="412">Input</text>
-  <circle class="pin-dot pin-purple" cx="1158" cy="432" r="5"/><text class="tiny" x="1173" y="436">L</text>
-  <circle class="pin-dot pin-gnd" cx="1192" cy="432" r="5"/><text class="tiny" x="1207" y="436">G</text>
-  <circle class="pin-dot pin-purple" cx="1226" cy="432" r="5"/><text class="tiny" x="1241" y="436">R</text>
-  <text class="tiny" x="1154" y="462">Power</text>
-  <circle class="pin-dot pin-5v" cx="1158" cy="482" r="5"/><text class="tiny" x="1173" y="486">+</text>
-  <circle class="pin-dot pin-gnd" cx="1192" cy="482" r="5"/><text class="tiny" x="1207" y="486">-</text>
-  <text class="tiny" x="1154" y="512">Speaker terminals</text>
-  <circle class="pin-dot pin-gray" cx="1158" cy="532" r="5"/><text class="tiny" x="1173" y="536">L+</text>
-  <circle class="pin-dot pin-gray" cx="1192" cy="532" r="5"/><text class="tiny" x="1207" y="536">L-</text>
-  <circle class="pin-dot pin-gray" cx="1238" cy="532" r="5"/><text class="tiny" x="1253" y="536">R+</text>
-  <circle class="pin-dot pin-gray" cx="1272" cy="532" r="5"/><text class="tiny" x="1287" y="536">R-</text>
-  <circle cx="1300" cy="437" r="28" fill="#e7edf4" stroke="#aab5c5" stroke-width="2"/>
-  <text class="tiny" x="1300" y="442" text-anchor="middle">VOL</text>
-
+  <rect
+     class="module"
+     x="1130.0999"
+     y="276.42154"
+     width="219.80029"
+     height="278.47861"
+     rx="11.989107"
+     id="rect78" />
+  <text
+     class="label"
+     x="1240"
+     y="301"
+     text-anchor="middle"
+     id="text79"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">PAM8403 Amp</text>
+  <text
+     class="small"
+     x="1240"
+     y="325"
+     text-anchor="middle"
+     id="text80"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">GF1002-style board</text>
+  <text
+     class="tiny"
+     x="1152"
+     y="352"
+     id="text81"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Input</text>
+  <circle
+     class="pin-dot pin-purple"
+     cx="1158"
+     cy="368"
+     r="5"
+     id="circle81" />
+  <text
+     class="tiny"
+     x="1173"
+     y="372"
+     id="text82"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">L</text>
+  <circle
+     class="pin-dot pin-gnd"
+     cx="1158"
+     cy="386"
+     r="5"
+     id="circle82" />
+  <text
+     class="tiny"
+     x="1173"
+     y="392"
+     id="text83"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">G</text>
+  <circle
+     class="pin-dot pin-purple"
+     cx="1158"
+     cy="406"
+     r="5"
+     id="circle83" />
+  <text
+     class="tiny"
+     x="1173"
+     y="410"
+     id="text84"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">R</text>
+  <text
+     class="tiny"
+     x="1154"
+     y="444"
+     id="text85"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Power</text>
+  <circle
+     class="pin-dot pin-5v"
+     cx="1158"
+     cy="460"
+     r="5"
+     id="circle85" />
+  <text
+     class="tiny"
+     x="1173"
+     y="464"
+     id="text86"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">+</text>
+  <circle
+     class="pin-dot pin-gnd"
+     cx="1158"
+     cy="482"
+     r="5"
+     id="circle86" />
+  <text
+     class="tiny"
+     x="1173"
+     y="486"
+     id="text87"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">-</text>
+  <text
+     class="tiny"
+     x="1154"
+     y="512"
+     id="text88">Speaker terminals</text>
+  <circle
+     class="pin-dot pin-gray"
+     cx="1158"
+     cy="532"
+     r="5"
+     id="circle88" />
+  <text
+     class="tiny"
+     x="1169"
+     y="536"
+     id="text89"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">L+</text>
+  <circle
+     class="pin-dot pin-gray"
+     cx="1192"
+     cy="532"
+     r="5"
+     id="circle89" />
+  <text
+     class="tiny"
+     x="1207"
+     y="536"
+     id="text90">L-</text>
+  <circle
+     class="pin-dot pin-gray"
+     cx="1238"
+     cy="532"
+     r="5"
+     id="circle90" />
+  <text
+     class="tiny"
+     x="1247"
+     y="536"
+     id="text91"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">R+</text>
+  <circle
+     class="pin-dot pin-gray"
+     cx="1272"
+     cy="532"
+     r="5"
+     id="circle91" />
+  <text
+     class="tiny"
+     x="1287"
+     y="536"
+     id="text92">R-</text>
+  <circle
+     cx="1300"
+     cy="437"
+     fill="#e7edf4"
+     stroke="#aab5c5"
+     stroke-width="2"
+     id="circle92"
+     r="28" />
+  <text
+     class="tiny"
+     x="1300"
+     y="442"
+     text-anchor="middle"
+     id="text93">VOL</text>
   <!-- Speakers -->
-  <g>
-    <rect class="module" x="1200" y="112" width="140" height="110" rx="12"/>
-    <circle cx="1270" cy="167" r="33" fill="#202736"/>
-    <circle cx="1270" cy="167" r="17" fill="#3b4659"/>
-    <text class="label" x="1270" y="246" text-anchor="middle">Left speaker</text>
+  <g
+     id="g94"
+     transform="translate(-161.20332,586.40019)">
+    <rect
+       class="module"
+       x="1200"
+       y="112"
+       width="140"
+       height="110"
+       rx="12"
+       id="rect93" />
+    <circle
+       cx="1270"
+       cy="167"
+       r="33"
+       fill="#202736"
+       id="circle93" />
+    <circle
+       cx="1270"
+       cy="167"
+       r="17"
+       fill="#3b4659"
+       id="circle94" />
+    <text
+       class="label"
+       x="1270"
+       y="246"
+       text-anchor="middle"
+       id="text94"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Left speaker</text>
   </g>
-  <g>
-    <rect class="module" x="1200" y="698" width="140" height="110" rx="12"/>
-    <circle cx="1270" cy="753" r="33" fill="#202736"/>
-    <circle cx="1270" cy="753" r="17" fill="#3b4659"/>
-    <text class="label" x="1270" y="832" text-anchor="middle">Right speaker</text>
+  <g
+     id="g96">
+    <rect
+       class="module"
+       x="1200"
+       y="698"
+       width="140"
+       height="110"
+       rx="12"
+       id="rect94" />
+    <circle
+       cx="1270"
+       cy="753"
+       r="33"
+       fill="#202736"
+       id="circle95" />
+    <circle
+       cx="1270"
+       cy="753"
+       r="17"
+       fill="#3b4659"
+       id="circle96" />
+    <text
+       class="label"
+       x="1270"
+       y="832"
+       text-anchor="middle"
+       id="text96">Right speaker</text>
   </g>
-
   <!-- Buttons -->
-  <g>
-    <rect class="module" x="160" y="564" width="190" height="88" rx="12"/>
-    <text class="label" x="255" y="598" text-anchor="middle">OLED button</text>
-    <text class="small" x="255" y="622" text-anchor="middle">GPIO23 to GND</text>
+  <g
+     id="g98">
+    <rect
+       class="module"
+       x="160"
+       y="564"
+       width="190"
+       height="88"
+       rx="12"
+       id="rect96" />
+    <text
+       class="label"
+       x="255"
+       y="598"
+       text-anchor="middle"
+       id="text97">OLED button</text>
+    <text
+       class="small"
+       x="255"
+       y="622"
+       text-anchor="middle"
+       id="text98">GPIO23 to GND</text>
   </g>
-  <g>
-    <rect class="module" x="160" y="684" width="190" height="88" rx="12"/>
-    <text class="label" x="255" y="718" text-anchor="middle">Power / play button</text>
-    <text class="small" x="255" y="742" text-anchor="middle">GPIO24 to GND</text>
+  <g
+     id="g100">
+    <rect
+       class="module"
+       x="160"
+       y="684"
+       width="190"
+       height="88"
+       rx="12"
+       id="rect98" />
+    <text
+       class="label"
+       x="255"
+       y="718"
+       text-anchor="middle"
+       id="text99">Power / play button</text>
+    <text
+       class="small"
+       x="255"
+       y="742"
+       text-anchor="middle"
+       id="text100">GPIO24 to GND</text>
   </g>
-
   <!-- Capacitors note -->
-  <rect class="note" x="1098" y="582" width="270" height="82" rx="10"/>
-  <text class="label" x="1233" y="614" text-anchor="middle">Amp power capacitors</text>
-  <text class="small" x="1233" y="638" text-anchor="middle">1000 uF + 100 nF across</text>
-  <text class="small" x="1233" y="658" text-anchor="middle">Power + and Power -</text>
-
+  <g
+     id="g134"
+     transform="translate(14.058795,-412.08898)">
+    <rect
+       class="note"
+       x="1098"
+       y="582"
+       width="270"
+       height="82"
+       rx="10"
+       id="rect100" />
+    <text
+       class="label"
+       x="1233"
+       y="614"
+       text-anchor="middle"
+       id="text101"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Amp power capacitors</text>
+    <text
+       class="small"
+       x="1233"
+       y="638"
+       text-anchor="middle"
+       id="text102"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">1000 uF + 100 nF across</text>
+    <text
+       class="small"
+       x="1233"
+       y="658"
+       text-anchor="middle"
+       id="text103"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Power + and Power -</text>
+  </g>
   <!-- Legend -->
-  <rect class="legend" x="70" y="86" width="285" height="170" rx="12"/>
-  <text class="label" x="94" y="118">Color key</text>
-  <line class="wire red" x1="96" y1="145" x2="152" y2="145"/>
-  <text class="small" x="166" y="150">5V power</text>
-  <line class="wire orange" x1="96" y1="172" x2="152" y2="172"/>
-  <text class="small" x="166" y="177">3.3V power</text>
-  <line class="wire black" x1="96" y1="199" x2="152" y2="199"/>
-  <text class="small" x="166" y="204">ground</text>
-  <line class="wire blue" x1="96" y1="226" x2="152" y2="226"/>
-  <text class="small" x="166" y="231">I2S audio</text>
-  <line class="wire green" x1="230" y1="145" x2="286" y2="145"/>
-  <text class="small" x="300" y="150">I2C</text>
-  <line class="wire purple" x1="230" y1="172" x2="286" y2="172"/>
-  <text class="small" x="300" y="177">analog</text>
-  <line class="wire gray" x1="230" y1="199" x2="286" y2="199"/>
-  <text class="small" x="300" y="204">speaker</text>
-  <line class="wire brown" x1="230" y1="226" x2="286" y2="226"/>
-  <text class="small" x="300" y="231">button</text>
-
+  <g
+     id="g1"
+     transform="translate(60.111144,1.3979336)">
+    <rect
+       class="legend"
+       x="70"
+       y="86"
+       width="285"
+       height="170"
+       rx="12"
+       id="rect103" />
+    <text
+       class="label"
+       x="94"
+       y="118"
+       id="text104"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Color key</text>
+    <line
+       class="wire red"
+       x1="96"
+       y1="145"
+       x2="152"
+       y2="145"
+       id="line104" />
+    <text
+       class="small"
+       x="166"
+       y="150"
+       id="text105"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">5V</text>
+    <line
+       class="wire orange"
+       x1="96"
+       y1="172"
+       x2="152"
+       y2="172"
+       id="line105" />
+    <text
+       class="small"
+       x="166"
+       y="177"
+       id="text106"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">3.3V</text>
+    <line
+       class="wire black"
+       x1="96"
+       y1="199"
+       x2="152"
+       y2="199"
+       id="line106" />
+    <text
+       class="small"
+       x="166"
+       y="204"
+       id="text107"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">ground</text>
+    <line
+       class="wire blue"
+       x1="96"
+       y1="226"
+       x2="152"
+       y2="226"
+       id="line107" />
+    <text
+       class="small"
+       x="166"
+       y="231"
+       id="text108"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">I2S audio</text>
+    <line
+       class="wire green"
+       x1="230"
+       y1="145"
+       x2="286"
+       y2="145"
+       id="line108" />
+    <text
+       class="small"
+       x="300"
+       y="150"
+       id="text109"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">I2C</text>
+    <line
+       class="wire purple"
+       x1="230"
+       y1="172"
+       x2="286"
+       y2="172"
+       id="line109" />
+    <text
+       class="small"
+       x="300"
+       y="177"
+       id="text110"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">analog</text>
+    <line
+       class="wire gray"
+       x1="230"
+       y1="199"
+       x2="286"
+       y2="199"
+       id="line110" />
+    <text
+       class="small"
+       x="300"
+       y="204"
+       id="text111"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">speaker</text>
+    <line
+       class="wire brown"
+       x1="230"
+       y1="226"
+       x2="286"
+       y2="226"
+       id="line111" />
+    <text
+       class="small"
+       x="300"
+       y="231"
+       id="text112"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">button</text>
+  </g>
   <!-- Pi to DAC: power and I2S -->
-  <path class="wire red" d="M 690 360 C 770 432, 782 512, 867 512"/>
-  <text class="tiny" x="756" y="408">pin 2 5V -> VIN</text>
-  <path class="wire black" d="M 654 420 C 770 522, 780 494, 867 494"/>
-  <text class="tiny" x="756" y="458">pin 9 GND -> GND</text>
-  <path class="wire blue" d="M 690 435 C 772 552, 782 440, 867 440"/>
-  <text class="tiny" x="756" y="488">pin 12 GPIO18 -> BCK</text>
-  <path class="wire blue" d="M 654 615 C 790 642, 782 476, 867 476"/>
-  <text class="tiny" x="755" y="518">pin 35 GPIO19 -> RCK</text>
-  <path class="wire blue" d="M 690 645 C 806 672, 784 458, 867 458"/>
-  <text class="tiny" x="754" y="548">pin 40 GPIO21 -> DIN</text>
-  <path class="wire orange" d="M 990 512 L 968 512 L 968 476 L 985 476"/>
-  <text class="tiny" x="990" y="532">local jumper, not to Pi 5V</text>
-
+  <path
+     class="wire red"
+     d="M 690 360 C 770 432, 782 512, 867 512"
+     id="path112" />
+  <path
+     class="wire black"
+     d="M 654 420 C 770 522, 780 494, 867 494"
+     id="path113" />
+  <path
+     class="wire blue"
+     d="M 690 435 C 772 552, 782 440, 867 440"
+     id="path114" />
+  <path
+     class="wire blue"
+     d="M 654 615 C 790 642, 782 476, 867 476"
+     id="path115" />
+  <path
+     class="wire blue"
+     d="M 690 645 C 806 672, 784 458, 867 458"
+     id="path116" />
+  <path
+     class="wire orange"
+     d="M 990 512 L 968 512 L 968 476 L 985 476"
+     id="path117" />
+  <text
+     class="tiny"
+     x="990"
+     y="532"
+     id="text118"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">local jumperV</text>
   <!-- DAC to amp analog -->
-  <path class="wire purple" d="M 995 422 C 1090 412, 1104 432, 1153 432"/>
-  <text class="tiny" x="1082" y="402">LROUT -> L</text>
-  <path class="wire black" d="M 995 440 C 1090 440, 1105 432, 1187 432"/>
-  <text class="tiny" x="1082" y="464">AGND -> G</text>
-  <path class="wire purple" d="M 995 458 C 1092 462, 1105 432, 1221 432"/>
-  <text class="tiny" x="1082" y="490">ROUT -> R</text>
-
+  <path
+     class="wire purple"
+     d="M 995 422 C 1068 402, 1110 378, 1158 368"
+     id="path118" />
+  <path
+     class="wire black"
+     d="M 995 440 C 1068 430, 1110 398, 1158 386"
+     id="path119" />
+  <path
+     class="wire purple"
+     d="M 995 458 C 1068 462, 1110 420, 1158 406"
+     id="path120" />
   <!-- Pi to amp power -->
-  <path class="wire red" d="M 690 375 C 930 244, 1060 272, 1153 482"/>
-  <text class="tiny" x="885" y="286">pin 4 5V -> amp Power +</text>
-  <path class="wire black" d="M 654 420 C 932 690, 1062 640, 1187 482"/>
-  <text class="tiny" x="850" y="686">pin 9 GND -> amp Power -</text>
-
+  <path
+     class="wire red"
+     d="M 690 375 C 930 244, 1060 300, 1158 460"
+     id="path121" />
+  <path
+     class="wire black"
+     d="M 654 420 C 932 690, 1062 640, 1158 482"
+     id="path122" />
   <!-- Amp to speakers -->
-  <path class="wire gray" d="M 1178 532 C 1210 430, 1302 252, 1272 222"/>
-  <text class="tiny" x="1188" y="290">Lout+ / Lout-</text>
-  <path class="wire gray" d="M 1255 532 C 1288 610, 1302 656, 1272 698"/>
-  <text class="tiny" x="1186" y="627">Rout+ / Rout-</text>
-
+  <text
+     class="tiny"
+     x="1034.2545"
+     y="691.32104"
+     id="text124"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Lout+ / Lout-</text>
+  <path
+     class="wire gray"
+     d="m 1239.1732,532 c 33,78 47,124 17,166"
+     id="path124" />
+  <path
+     class="wire gray"
+     d="m 1272.8487,531.28289 c 33,78 47,124 17,166"
+     id="path124-5"
+     style="fill:none;stroke:#59606d;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" />
+  <path
+     class="wire gray"
+     d="m 1156.8046,532.53608 c -38.7907,77.88265 -55.2473,123.81345 -19.9831,165.75026"
+     id="path124-3"
+     style="fill:none;stroke:#59606d;stroke-width:3.25013;stroke-linecap:round;stroke-linejoin:round" />
+  <path
+     class="wire gray"
+     d="m 1190.7425,532.75554 c -38.7907,77.88265 -55.2473,123.81345 -19.9831,165.75026"
+     id="path124-3-8"
+     style="fill:none;stroke:#59606d;stroke-width:3.25013;stroke-linecap:round;stroke-linejoin:round" />
+  <text
+     class="tiny"
+     x="1305.8311"
+     y="690.30701"
+     id="text125"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Rout+ / Rout-</text>
   <!-- Pi to OLED -->
-  <path class="wire orange" d="M 654 360 C 612 300, 610 220, 665 194"/>
-  <text class="tiny" x="522" y="248">pin 1 3.3V -> VCC</text>
-  <path class="wire black" d="M 690 450 C 584 304, 640 220, 712 194"/>
-  <text class="tiny" x="488" y="278">pin 14 GND -> GND</text>
-  <path class="wire green" d="M 654 375 C 690 286, 690 154, 665 110"/>
-  <text class="tiny" x="704" y="258">pin 3 GPIO2 -> SDA</text>
-  <path class="wire green" d="M 654 390 C 730 300, 724 154, 712 110"/>
-  <text class="tiny" x="736" y="288">pin 5 GPIO3 -> SCL</text>
-
+  <path
+     class="wire orange"
+     d="M 653.29804,359.26921 C 610,310 540,240 509.4415,192.72493"
+     id="path125" />
+  <path
+     class="wire black"
+     d="M 690 450 C 650,330 590,245 554.5929,192.67725"
+     id="path126" />
+  <path
+     class="wire green"
+     d="M 654 375 C 650,300 625,245 601.50806,192.67181"
+     id="path127" />
+  <path
+     class="wire green"
+     d="M 654 390 C 690,308 690,240 652.14563,192.67181"
+     id="path128" />
   <!-- Pi to buttons -->
-  <path class="wire brown" d="M 690 465 C 532 582, 462 608, 350 608"/>
-  <text class="tiny" x="450" y="592">pin 16 GPIO23</text>
-  <path class="wire black" d="M 690 495 C 535 535, 462 636, 350 636"/>
-  <text class="tiny" x="450" y="642">pin 20 GND</text>
-  <path class="wire brown" d="M 690 480 C 525 640, 462 728, 350 728"/>
-  <text class="tiny" x="450" y="706">pin 18 GPIO24</text>
-  <path class="wire black" d="M 654 540 C 520 548, 462 756, 350 756"/>
-  <text class="tiny" x="450" y="770">pin 25 GND</text>
-
-  <text class="small" x="700" y="930" text-anchor="middle">Do not connect speaker minus to Pi GND. The amplifier speaker outputs are bridged outputs.</text>
+  <path
+     class="wire brown"
+     d="M 690 465 C 532 582, 462 608, 350 608"
+     id="path129" />
+  <path
+     class="wire black"
+     d="M 690 495 C 535 535, 462 636, 350 636"
+     id="path130" />
+  <path
+     class="wire brown"
+     d="M 690 480 C 525 640, 462 728, 350 728"
+     id="path131" />
+  <path
+     class="wire black"
+     d="M 654 540 C 520 548, 462 756, 350 756"
+     id="path132" />
 </svg>
