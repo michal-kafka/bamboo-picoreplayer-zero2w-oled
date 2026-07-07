@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Raspberry Pi Zero 2 W piCorePlayer wiring diagram</title>
+  <desc id="desc">Wiring overview for Raspberry Pi Zero 2 W, PCM5102A DAC, PAM8403 amplifier, OLED display, buttons, and speakers.</desc>
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d33f49"/>
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d98324"/>
+    </marker>
+    <marker id="arrow-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#30343f"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#246eb9"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2c9a5f"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7c4dff"/>
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#59606d"/>
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .board { fill: #ffffff; stroke: #243042; stroke-width: 2; }
+      .module { fill: #ffffff; stroke: #536176; stroke-width: 2; }
+      .title { font: 700 22px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+      .label { font: 600 15px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+      .small { font: 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #2e394d; }
+      .tiny { font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #2e394d; }
+      .pin { fill: #f4f6f9; stroke: #9aa6b8; stroke-width: 1; }
+      .red { stroke: #d33f49; }
+      .orange { stroke: #d98324; }
+      .black { stroke: #30343f; }
+      .blue { stroke: #246eb9; }
+      .green { stroke: #2c9a5f; }
+      .purple { stroke: #7c4dff; }
+      .gray { stroke: #59606d; }
+      .brown { stroke: #9b6a30; }
+      .wire { fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .note { fill: #fff8e6; stroke: #d49d2f; stroke-width: 1.5; }
+      .legend { fill: #ffffff; stroke: #d1d8e3; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="980"/>
+  <text class="title" x="700" y="42" text-anchor="middle">Bamboo piCorePlayer Zero 2 W Wiring Overview</text>
+
+  <!-- Raspberry Pi Zero 2 W -->
+  <rect class="board" x="470" y="280" width="270" height="420" rx="16"/>
+  <text class="label" x="605" y="315" text-anchor="middle">Raspberry Pi Zero 2 W</text>
+  <text class="small" x="605" y="338" text-anchor="middle">piCorePlayer / Squeezelite</text>
+
+  <rect x="501" y="376" width="70" height="88" rx="6" fill="#e7edf4" stroke="#aab5c5"/>
+  <text class="tiny" x="536" y="414" text-anchor="middle">CPU</text>
+  <text class="tiny" x="536" y="432" text-anchor="middle">Wi-Fi</text>
+  <rect x="596" y="610" width="66" height="26" rx="4" fill="#e7edf4" stroke="#aab5c5"/>
+  <text class="tiny" x="629" y="628" text-anchor="middle">USB PWR</text>
+
+  <!-- GPIO header as named pins used by the build -->
+  <g>
+    <text class="label" x="697" y="372">GPIO header</text>
+    <rect class="pin" x="690" y="390" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="407" text-anchor="end">1 3V3</text>
+    <rect class="pin" x="690" y="420" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="437" text-anchor="end">2 5V</text>
+    <rect class="pin" x="690" y="450" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="467" text-anchor="end">3 SDA</text>
+    <rect class="pin" x="690" y="480" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="497" text-anchor="end">5 SCL</text>
+    <rect class="pin" x="690" y="510" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="527" text-anchor="end">9 GND</text>
+    <rect class="pin" x="690" y="540" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="557" text-anchor="end">12 BCK</text>
+    <rect class="pin" x="690" y="570" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="587" text-anchor="end">16 GPIO23</text>
+    <rect class="pin" x="690" y="600" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="617" text-anchor="end">18 GPIO24</text>
+    <rect class="pin" x="690" y="630" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="647" text-anchor="end">35 RCK</text>
+    <rect class="pin" x="690" y="660" width="28" height="24" rx="3"/>
+    <text class="tiny" x="676" y="677" text-anchor="end">40 DIN</text>
+  </g>
+
+  <!-- OLED -->
+  <rect class="module" x="455" y="88" width="300" height="120" rx="12"/>
+  <rect x="495" y="124" width="132" height="42" rx="5" fill="#202736" stroke="#4c596e"/>
+  <text class="label" x="665" y="128">I2C OLED</text>
+  <text class="small" x="665" y="152">SSD1306, address 0x3c</text>
+  <text class="tiny" x="665" y="174">VCC, GND, SDA, SCL</text>
+
+  <!-- DAC -->
+  <rect class="module" x="840" y="318" width="235" height="220" rx="12"/>
+  <text class="label" x="958" y="350" text-anchor="middle">PCM5102A DAC</text>
+  <text class="small" x="958" y="374" text-anchor="middle">I2S to line out</text>
+  <text class="tiny" x="865" y="414">VIN</text>
+  <text class="tiny" x="865" y="438">GND</text>
+  <text class="tiny" x="865" y="462">BCK</text>
+  <text class="tiny" x="865" y="486">RCK / LRCK</text>
+  <text class="tiny" x="865" y="510">DIN</text>
+  <text class="tiny" x="985" y="414">LROUT</text>
+  <text class="tiny" x="985" y="438">AGND</text>
+  <text class="tiny" x="985" y="462">ROUT</text>
+  <text class="tiny" x="985" y="508">XSMT -> 3.3V</text>
+
+  <!-- Amp -->
+  <rect class="module" x="1130" y="325" width="220" height="230" rx="12"/>
+  <text class="label" x="1240" y="357" text-anchor="middle">PAM8403 Amp</text>
+  <text class="small" x="1240" y="381" text-anchor="middle">GF1002-style board</text>
+  <text class="tiny" x="1155" y="420">L / G / R inputs</text>
+  <text class="tiny" x="1155" y="448">Power + / -</text>
+  <text class="tiny" x="1155" y="476">Lout+ / Lout-</text>
+  <text class="tiny" x="1155" y="504">Rout+ / Rout-</text>
+  <circle cx="1300" cy="437" r="28" fill="#e7edf4" stroke="#aab5c5" stroke-width="2"/>
+  <text class="tiny" x="1300" y="442" text-anchor="middle">VOL</text>
+
+  <!-- Speakers -->
+  <g>
+    <rect class="module" x="1200" y="112" width="140" height="110" rx="12"/>
+    <circle cx="1270" cy="167" r="33" fill="#202736"/>
+    <circle cx="1270" cy="167" r="17" fill="#3b4659"/>
+    <text class="label" x="1270" y="246" text-anchor="middle">Left speaker</text>
+  </g>
+  <g>
+    <rect class="module" x="1200" y="698" width="140" height="110" rx="12"/>
+    <circle cx="1270" cy="753" r="33" fill="#202736"/>
+    <circle cx="1270" cy="753" r="17" fill="#3b4659"/>
+    <text class="label" x="1270" y="832" text-anchor="middle">Right speaker</text>
+  </g>
+
+  <!-- Buttons -->
+  <g>
+    <rect class="module" x="160" y="564" width="190" height="88" rx="12"/>
+    <text class="label" x="255" y="598" text-anchor="middle">OLED button</text>
+    <text class="small" x="255" y="622" text-anchor="middle">GPIO23 to GND</text>
+  </g>
+  <g>
+    <rect class="module" x="160" y="684" width="190" height="88" rx="12"/>
+    <text class="label" x="255" y="718" text-anchor="middle">Power / play button</text>
+    <text class="small" x="255" y="742" text-anchor="middle">GPIO24 to GND</text>
+  </g>
+
+  <!-- Capacitors note -->
+  <rect class="note" x="1098" y="582" width="270" height="82" rx="10"/>
+  <text class="label" x="1233" y="614" text-anchor="middle">Amp power capacitors</text>
+  <text class="small" x="1233" y="638" text-anchor="middle">1000 uF + 100 nF across</text>
+  <text class="small" x="1233" y="658" text-anchor="middle">Power + and Power -</text>
+
+  <!-- Legend -->
+  <rect class="legend" x="70" y="86" width="285" height="170" rx="12"/>
+  <text class="label" x="94" y="118">Color key</text>
+  <line class="wire red" x1="96" y1="145" x2="152" y2="145"/>
+  <text class="small" x="166" y="150">5V power</text>
+  <line class="wire orange" x1="96" y1="172" x2="152" y2="172"/>
+  <text class="small" x="166" y="177">3.3V power</text>
+  <line class="wire black" x1="96" y1="199" x2="152" y2="199"/>
+  <text class="small" x="166" y="204">ground</text>
+  <line class="wire blue" x1="96" y1="226" x2="152" y2="226"/>
+  <text class="small" x="166" y="231">I2S audio</text>
+  <line class="wire green" x1="230" y1="145" x2="286" y2="145"/>
+  <text class="small" x="300" y="150">I2C</text>
+  <line class="wire purple" x1="230" y1="172" x2="286" y2="172"/>
+  <text class="small" x="300" y="177">analog</text>
+  <line class="wire gray" x1="230" y1="199" x2="286" y2="199"/>
+  <text class="small" x="300" y="204">speaker</text>
+  <line class="wire brown" x1="230" y1="226" x2="286" y2="226"/>
+  <text class="small" x="300" y="231">button</text>
+
+  <!-- Pi to DAC: power and I2S -->
+  <path class="wire red" marker-end="url(#arrow-red)" d="M 718 432 C 770 432, 782 408, 840 408"/>
+  <text class="tiny" x="756" y="408">pin 2 5V -> VIN</text>
+  <path class="wire black" marker-end="url(#arrow-black)" d="M 718 522 C 770 522, 780 434, 840 434"/>
+  <text class="tiny" x="756" y="458">pin 9 GND -> GND</text>
+  <path class="wire blue" marker-end="url(#arrow-blue)" d="M 718 552 C 772 552, 782 458, 840 458"/>
+  <text class="tiny" x="756" y="488">pin 12 GPIO18 -> BCK</text>
+  <path class="wire blue" marker-end="url(#arrow-blue)" d="M 718 642 C 790 642, 782 482, 840 482"/>
+  <text class="tiny" x="755" y="518">pin 35 GPIO19 -> RCK</text>
+  <path class="wire blue" marker-end="url(#arrow-blue)" d="M 718 672 C 806 672, 784 506, 840 506"/>
+  <text class="tiny" x="754" y="548">pin 40 GPIO21 -> DIN</text>
+  <path class="wire orange" marker-end="url(#arrow-orange)" d="M 984 508 L 960 508 L 960 486"/>
+  <text class="tiny" x="990" y="532">local jumper, not to Pi 5V</text>
+
+  <!-- DAC to amp analog -->
+  <path class="wire purple" marker-end="url(#arrow-purple)" d="M 1075 412 C 1102 412, 1102 414, 1130 414"/>
+  <text class="tiny" x="1082" y="402">LROUT -> L</text>
+  <path class="wire black" marker-end="url(#arrow-black)" d="M 1075 438 C 1102 438, 1102 440, 1130 440"/>
+  <text class="tiny" x="1082" y="464">AGND -> G</text>
+  <path class="wire purple" marker-end="url(#arrow-purple)" d="M 1075 462 C 1102 462, 1102 466, 1130 466"/>
+  <text class="tiny" x="1082" y="490">ROUT -> R</text>
+
+  <!-- Pi to amp power -->
+  <path class="wire red" marker-end="url(#arrow-red)" d="M 718 420 C 930 244, 1060 272, 1130 442"/>
+  <text class="tiny" x="885" y="286">pin 4 5V -> amp Power +</text>
+  <path class="wire black" marker-end="url(#arrow-black)" d="M 718 522 C 932 690, 1062 640, 1130 466"/>
+  <text class="tiny" x="850" y="686">pin 9 GND -> amp Power -</text>
+
+  <!-- Amp to speakers -->
+  <path class="wire gray" marker-end="url(#arrow-gray)" d="M 1260 325 C 1288 290, 1302 252, 1272 222"/>
+  <text class="tiny" x="1188" y="290">Lout+ / Lout-</text>
+  <path class="wire gray" marker-end="url(#arrow-gray)" d="M 1260 555 C 1288 610, 1302 656, 1272 698"/>
+  <text class="tiny" x="1186" y="627">Rout+ / Rout-</text>
+
+  <!-- Pi to OLED -->
+  <path class="wire orange" marker-end="url(#arrow-orange)" d="M 690 402 C 612 300, 610 250, 604 208"/>
+  <text class="tiny" x="522" y="248">pin 1 3.3V -> VCC</text>
+  <path class="wire black" marker-end="url(#arrow-black)" d="M 690 522 C 584 304, 568 256, 566 208"/>
+  <text class="tiny" x="488" y="278">pin 14 GND -> GND</text>
+  <path class="wire green" marker-end="url(#arrow-green)" d="M 690 462 C 690 286, 690 248, 690 208"/>
+  <text class="tiny" x="704" y="258">pin 3 GPIO2 -> SDA</text>
+  <path class="wire green" marker-end="url(#arrow-green)" d="M 690 492 C 730 300, 724 248, 722 208"/>
+  <text class="tiny" x="736" y="288">pin 5 GPIO3 -> SCL</text>
+
+  <!-- Pi to buttons -->
+  <path class="wire brown" marker-end="url(#arrow-gray)" d="M 690 582 C 532 582, 462 608, 350 608"/>
+  <text class="tiny" x="450" y="592">pin 16 GPIO23</text>
+  <path class="wire black" marker-end="url(#arrow-black)" d="M 690 522 C 535 535, 462 636, 350 636"/>
+  <text class="tiny" x="450" y="642">pin 20 GND</text>
+  <path class="wire brown" marker-end="url(#arrow-gray)" d="M 690 612 C 525 640, 462 728, 350 728"/>
+  <text class="tiny" x="450" y="706">pin 18 GPIO24</text>
+  <path class="wire black" marker-end="url(#arrow-black)" d="M 690 522 C 520 548, 462 756, 350 756"/>
+  <text class="tiny" x="450" y="770">pin 25 GND</text>
+
+  <text class="small" x="700" y="930" text-anchor="middle">Do not connect speaker minus to Pi GND. The amplifier speaker outputs are bridged outputs.</text>
+</svg>

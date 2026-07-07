@@ -6,6 +6,10 @@ A small Wi-Fi Squeezelite player built with piCorePlayer, a Raspberry Pi Zero 2 
 
 The build is designed as a network player for Logitech Media Server (LMS) running elsewhere on the LAN.
 
+## Wiring Diagram
+
+![Wiring diagram](assets/wiring-diagram.svg)
+
 ```text
 LMS server
     -> Wi-Fi
