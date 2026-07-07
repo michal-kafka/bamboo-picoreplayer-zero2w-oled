@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="1400"
-   height="980"
-   viewBox="0 0 1400 980"
+   width="1282.198"
+   height="860"
+   viewBox="0 0 1282.198 860"
    role="img"
    aria-labelledby="title desc"
    version="1.1"
@@ -12,7 +12,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview134"
      pagecolor="#ffffff"
@@ -22,15 +25,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="4.4817233"
-     inkscape:cx="687.68191"
-     inkscape:cy="352.76609"
+     inkscape:zoom="0.48386251"
+     inkscape:cx="477.40834"
+     inkscape:cy="452.60791"
      inkscape:window-width="1449"
      inkscape:window-height="921"
      inkscape:window-x="63"
      inkscape:window-y="33"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g55" />
+     inkscape:current-layer="svg134" />
   <title
      id="title">Raspberry Pi Zero 2 W piCorePlayer wiring diagram</title>
   <desc
@@ -46,7 +49,7 @@
        markerHeight="7"
        orient="auto-start-reverse">
       <path
-         d="M 0 0 L 10 5 L 0 10 z"
+         d="M 0,0 10,5 0,10 Z"
          fill="#d33f49"
          id="path1" />
     </marker>
@@ -59,7 +62,7 @@
        markerHeight="7"
        orient="auto-start-reverse">
       <path
-         d="M 0 0 L 10 5 L 0 10 z"
+         d="M 0,0 10,5 0,10 Z"
          fill="#d98324"
          id="path2" />
     </marker>
@@ -72,7 +75,7 @@
        markerHeight="7"
        orient="auto-start-reverse">
       <path
-         d="M 0 0 L 10 5 L 0 10 z"
+         d="M 0,0 10,5 0,10 Z"
          fill="#30343f"
          id="path3" />
     </marker>
@@ -85,7 +88,7 @@
        markerHeight="7"
        orient="auto-start-reverse">
       <path
-         d="M 0 0 L 10 5 L 0 10 z"
+         d="M 0,0 10,5 0,10 Z"
          fill="#246eb9"
          id="path4" />
     </marker>
@@ -98,7 +101,7 @@
        markerHeight="7"
        orient="auto-start-reverse">
       <path
-         d="M 0 0 L 10 5 L 0 10 z"
+         d="M 0,0 10,5 0,10 Z"
          fill="#2c9a5f"
          id="path5" />
     </marker>
@@ -111,7 +114,7 @@
        markerHeight="7"
        orient="auto-start-reverse">
       <path
-         d="M 0 0 L 10 5 L 0 10 z"
+         d="M 0,0 10,5 0,10 Z"
          fill="#7c4dff"
          id="path6" />
     </marker>
@@ -124,13 +127,13 @@
        markerHeight="7"
        orient="auto-start-reverse">
       <path
-         d="M 0 0 L 10 5 L 0 10 z"
+         d="M 0,0 10,5 0,10 Z"
          fill="#59606d"
          id="path7" />
     </marker>
     <style
        id="style7">
-      .bg { fill: #f8fafc; }
+      .bg { fill: #ffffff; }
       .board { fill: #ffffff; stroke: #243042; stroke-width: 2; }
       .module { fill: #ffffff; stroke: #536176; stroke-width: 2; }
       .title { font: 700 22px system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; fill: #172033; }
@@ -165,19 +168,21 @@
      class="bg"
      x="0"
      y="0"
-     width="1400"
-     height="980"
-     id="rect7" />
+     width="1282.198"
+     height="860"
+     id="rect7"
+     style="stroke-width:0.957003" />
   <text
      class="title"
-     x="700"
+     x="582.19794"
      y="42"
      text-anchor="middle"
-     id="text7">Bamboo piCorePlayer Zero 2 W Wiring Overview</text>
+     id="text7"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:22px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Bamboo piCorePlayer Zero 2 W Wiring Overview</text>
   <!-- Raspberry Pi Zero 2 W -->
   <rect
      class="board"
-     x="435"
+     x="317.19794"
      y="255"
      width="350"
      height="485"
@@ -185,18 +190,20 @@
      id="rect8" />
   <text
      class="label"
-     x="610"
+     x="492.19794"
      y="290"
      text-anchor="middle"
-     id="text8">Raspberry Pi Zero 2 W</text>
+     id="text8"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Raspberry Pi Zero 2 W</text>
   <text
      class="small"
-     x="610"
+     x="492.19794"
      y="313"
      text-anchor="middle"
-     id="text9">piCorePlayer / Squeezelite</text>
+     id="text9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">piCorePlayer / Squeezelite</text>
   <rect
-     x="475"
+     x="357.19794"
      y="390"
      width="74"
      height="92"
@@ -206,18 +213,20 @@
      id="rect9" />
   <text
      class="tiny"
-     x="512"
+     x="394.19794"
      y="430"
      text-anchor="middle"
-     id="text10">CPU</text>
+     id="text10"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">CPU</text>
   <text
      class="tiny"
-     x="512"
+     x="394.19794"
      y="448"
      text-anchor="middle"
-     id="text11">Wi-Fi</text>
+     id="text11"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Wi-Fi</text>
   <rect
-     x="490"
+     x="372.19794"
      y="650"
      width="78"
      height="26"
@@ -227,25 +236,29 @@
      id="rect11" />
   <text
      class="tiny"
-     x="529"
+     x="411.19794"
      y="668"
      text-anchor="middle"
-     id="text12">USB PWR</text>
+     id="text12"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">USB PWR</text>
   <!-- Full 40-pin GPIO header. Odd pins are on the left, even pins on the right. -->
   <g
-     id="g55">
+     id="g55"
+     transform="translate(-117.80206)">
     <text
        class="label"
        x="688"
        y="340"
        text-anchor="middle"
-       id="text13">40-pin GPIO header</text>
+       id="text13"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">40-pin GPIO header</text>
     <text
        class="tiny"
        x="642"
        y="364"
        text-anchor="end"
-       id="text16">1 3V3</text>
+       id="text16"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">1 3V3</text>
     <circle
        class="pin-dot pin-3v3"
        cx="654"
@@ -262,13 +275,15 @@
        class="tiny"
        x="702"
        y="364"
-       id="text17">2 5V</text>
+       id="text17"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">2 5V</text>
     <text
        class="tiny"
        x="642"
        y="379"
        text-anchor="end"
-       id="text18">3 SDA</text>
+       id="text18"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">3 SDA</text>
     <circle
        class="pin-dot pin-i2c"
        cx="654"
@@ -285,13 +300,15 @@
        class="tiny"
        x="702"
        y="379"
-       id="text19">4 5V</text>
+       id="text19"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">4 5V</text>
     <text
        class="tiny"
        x="642"
        y="394"
        text-anchor="end"
-       id="text20">5 SCL</text>
+       id="text20"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">5 SCL</text>
     <circle
        class="pin-dot pin-i2c"
        cx="654"
@@ -308,13 +325,15 @@
        class="tiny"
        x="702"
        y="394"
-       id="text21">6 GND</text>
+       id="text21"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">6 GND</text>
     <text
        class="tiny"
        x="642"
        y="409"
        text-anchor="end"
-       id="text22">7 GPIO4</text>
+       id="text22"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">7 GPIO4</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -331,13 +350,15 @@
        class="tiny"
        x="702"
        y="409"
-       id="text23">8 GPIO14</text>
+       id="text23"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">8 GPIO14</text>
     <text
        class="tiny"
        x="642"
        y="424"
        text-anchor="end"
-       id="text24">9 GND</text>
+       id="text24"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">9 GND</text>
     <circle
        class="pin-dot pin-gnd"
        cx="654"
@@ -354,13 +375,15 @@
        class="tiny"
        x="702"
        y="424"
-       id="text25">10 GPIO15</text>
+       id="text25"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">10 GPIO15</text>
     <text
        class="tiny"
        x="642"
        y="439"
        text-anchor="end"
-       id="text26">11 GPIO17</text>
+       id="text26"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">11 GPIO17</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -377,13 +400,15 @@
        class="tiny"
        x="702"
        y="439"
-       id="text27">12 BCK</text>
+       id="text27"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">12 BCK</text>
     <text
        class="tiny"
        x="642"
        y="454"
        text-anchor="end"
-       id="text28">13 GPIO27</text>
+       id="text28"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">13 GPIO27</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -400,13 +425,15 @@
        class="tiny"
        x="702"
        y="454"
-       id="text29">14 GND</text>
+       id="text29"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">14 GND</text>
     <text
        class="tiny"
        x="642"
        y="469"
        text-anchor="end"
-       id="text30">15 GPIO22</text>
+       id="text30"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">15 GPIO22</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -423,13 +450,15 @@
        class="tiny"
        x="702"
        y="469"
-       id="text31">16 GPIO23</text>
+       id="text31"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">16 GPIO23</text>
     <text
        class="tiny"
        x="642"
        y="484"
        text-anchor="end"
-       id="text32">17 3V3</text>
+       id="text32"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">17 3V3</text>
     <circle
        class="pin-dot pin-3v3"
        cx="654"
@@ -446,13 +475,15 @@
        class="tiny"
        x="702"
        y="484"
-       id="text33">18 GPIO24</text>
+       id="text33"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">18 GPIO24</text>
     <text
        class="tiny"
        x="642"
        y="499"
        text-anchor="end"
-       id="text34">19 GPIO10</text>
+       id="text34"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">19 GPIO10</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -469,13 +500,15 @@
        class="tiny"
        x="702"
        y="499"
-       id="text35">20 GND</text>
+       id="text35"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">20 GND</text>
     <text
        class="tiny"
        x="642"
        y="514"
        text-anchor="end"
-       id="text36">21 GPIO9</text>
+       id="text36"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">21 GPIO9</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -492,13 +525,15 @@
        class="tiny"
        x="702"
        y="514"
-       id="text37">22 GPIO25</text>
+       id="text37"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">22 GPIO25</text>
     <text
        class="tiny"
        x="642"
        y="529"
        text-anchor="end"
-       id="text38">23 GPIO11</text>
+       id="text38"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">23 GPIO11</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -515,13 +550,15 @@
        class="tiny"
        x="702"
        y="529"
-       id="text39">24 GPIO8</text>
+       id="text39"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">24 GPIO8</text>
     <text
        class="tiny"
        x="642"
        y="544"
        text-anchor="end"
-       id="text40">25 GND</text>
+       id="text40"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">25 GND</text>
     <circle
        class="pin-dot pin-gnd"
        cx="654"
@@ -538,13 +575,15 @@
        class="tiny"
        x="702"
        y="544"
-       id="text41">26 GPIO7</text>
+       id="text41"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">26 GPIO7</text>
     <text
        class="tiny"
        x="642"
        y="559"
        text-anchor="end"
-       id="text42">27 GPIO0</text>
+       id="text42"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">27 GPIO0</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -561,13 +600,15 @@
        class="tiny"
        x="702"
        y="559"
-       id="text43">28 GPIO1</text>
+       id="text43"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">28 GPIO1</text>
     <text
        class="tiny"
        x="642"
        y="574"
        text-anchor="end"
-       id="text44">29 GPIO5</text>
+       id="text44"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">29 GPIO5</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -584,13 +625,15 @@
        class="tiny"
        x="702"
        y="574"
-       id="text45">30 GND</text>
+       id="text45"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">30 GND</text>
     <text
        class="tiny"
        x="642"
        y="589"
        text-anchor="end"
-       id="text46">31 GPIO6</text>
+       id="text46"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">31 GPIO6</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -607,13 +650,15 @@
        class="tiny"
        x="702"
        y="589"
-       id="text47">32 GPIO12</text>
+       id="text47"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">32 GPIO12</text>
     <text
        class="tiny"
        x="642"
        y="604"
        text-anchor="end"
-       id="text48">33 GPIO13</text>
+       id="text48"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">33 GPIO13</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -630,13 +675,15 @@
        class="tiny"
        x="702"
        y="604"
-       id="text49">34 GND</text>
+       id="text49"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">34 GND</text>
     <text
        class="tiny"
        x="642"
        y="619"
        text-anchor="end"
-       id="text50">35 RCK</text>
+       id="text50"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">35 RCK</text>
     <circle
        class="pin-dot pin-i2s"
        cx="654"
@@ -653,13 +700,15 @@
        class="tiny"
        x="702"
        y="619"
-       id="text51">36 GPIO16</text>
+       id="text51"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">36 GPIO16</text>
     <text
        class="tiny"
        x="642"
        y="634"
        text-anchor="end"
-       id="text52">37 GPIO26</text>
+       id="text52"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">37 GPIO26</text>
     <circle
        class="pin-dot"
        cx="654"
@@ -676,13 +725,15 @@
        class="tiny"
        x="702"
        y="634"
-       id="text53">38 GPIO20</text>
+       id="text53"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">38 GPIO20</text>
     <text
        class="tiny"
        x="642"
        y="649"
        text-anchor="end"
-       id="text54">39 GND</text>
+       id="text54"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">39 GND</text>
     <circle
        class="pin-dot pin-gnd"
        cx="654"
@@ -699,19 +750,20 @@
        class="tiny"
        x="702"
        y="649"
-       id="text55">40 DIN</text>
+       id="text55"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">40 DIN</text>
   </g>
   <!-- OLED -->
   <rect
      class="module"
-     x="455"
+     x="337.19794"
      y="88"
      width="300"
      height="120"
      rx="12"
      id="rect55" />
   <rect
-     x="495"
+     x="377.19794"
      y="124"
      width="132"
      height="42"
@@ -721,74 +773,74 @@
      id="rect56" />
   <text
      class="label"
-     x="473.73953"
+     x="355.93747"
      y="112.69917"
      id="text56"
      style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">I2C OLED</text>
   <text
      class="small"
-     x="593.24084"
+     x="475.43878"
      y="117.93922"
      id="text57"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">SSD1306, address 0x3c</text>
   <text
      class="tiny"
-     x="547.60602"
+     x="429.80396"
      y="179.62169"
      id="text58"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">4-pin I2C header</text>
   <circle
      class="pin-dot pin-3v3"
-     cx="509.4415"
+     cx="391.63943"
      cy="192.72493"
      r="5"
      id="circle58" />
   <text
      class="tiny"
-     x="518.89136"
+     x="401.08929"
      y="197.36247"
      id="text59"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">VCC</text>
   <circle
      class="pin-dot pin-gnd"
-     cx="554.5929"
+     cx="436.79083"
      cy="192.67725"
      r="5"
      id="circle59" />
   <text
      class="tiny"
-     x="563.6167"
+     x="445.81464"
      y="197.33862"
      id="text60"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">GND</text>
   <circle
      class="pin-dot pin-i2c"
-     cx="601.50806"
+     cx="483.70599"
      cy="192.67181"
      r="5"
      id="circle60" />
   <text
      class="tiny"
-     x="613.50806"
+     x="495.70599"
      y="196.67181"
      id="text61"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">SDA</text>
   <circle
      class="pin-dot pin-i2c"
-     cx="652.14563"
+     cx="534.34357"
      cy="192.67181"
      r="5"
      id="circle61" />
   <text
      class="tiny"
-     x="664.14563"
+     x="546.34357"
      y="196.67181"
      id="text62"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">SCL</text>
   <!-- DAC -->
   <rect
      class="module"
-     x="840"
+     x="722.19794"
      y="318"
      width="235"
      height="220"
@@ -796,163 +848,178 @@
      id="rect62" />
   <text
      class="label"
-     x="958"
+     x="840.19794"
      y="350"
      text-anchor="middle"
-     id="text63">PCM5102A DAC</text>
+     id="text63"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">PCM5102A DAC</text>
   <text
      class="small"
-     x="958"
+     x="840.19794"
      y="374"
      text-anchor="middle"
-     id="text64">I2S to line out</text>
+     id="text64"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">I2S to line out</text>
   <text
      class="tiny"
-     x="868"
+     x="750.19794"
      y="402"
-     id="text65">Side header</text>
+     id="text65"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Side header</text>
   <circle
      class="pin-dot"
-     cx="872"
+     cx="754.19794"
      cy="422"
      r="5"
      id="circle65" />
   <text
      class="tiny"
-     x="888"
+     x="770.19794"
      y="426"
-     id="text66">SCK open</text>
+     id="text66"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">SCK open</text>
   <circle
      class="pin-dot pin-i2s"
-     cx="872"
+     cx="754.19794"
      cy="440"
      r="5"
      id="circle66" />
   <text
      class="tiny"
-     x="888"
+     x="770.19794"
      y="444"
-     id="text67">BCK</text>
+     id="text67"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">BCK</text>
   <circle
      class="pin-dot pin-i2s"
-     cx="872"
+     cx="754.19794"
      cy="458"
      r="5"
      id="circle67" />
   <text
      class="tiny"
-     x="888"
+     x="770.19794"
      y="462"
-     id="text68">DIN</text>
+     id="text68"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">DIN</text>
   <circle
      class="pin-dot pin-i2s"
-     cx="872"
+     cx="754.19794"
      cy="476"
      r="5"
      id="circle68" />
   <text
      class="tiny"
-     x="888"
+     x="770.19794"
      y="480"
-     id="text69">RCK / LRCK</text>
+     id="text69"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">RCK / LRCK</text>
   <circle
      class="pin-dot pin-gnd"
-     cx="872"
+     cx="754.19794"
      cy="494"
      r="5"
      id="circle69" />
   <text
      class="tiny"
-     x="888"
+     x="770.19794"
      y="498"
-     id="text70">GND</text>
+     id="text70"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">GND</text>
   <circle
      class="pin-dot pin-5v"
-     cx="872"
+     cx="754.19794"
      cy="512"
      r="5"
      id="circle70" />
   <text
      class="tiny"
-     x="888"
+     x="770.19794"
      y="516"
-     id="text71">VIN</text>
+     id="text71"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">VIN</text>
   <text
      class="tiny"
-     x="988"
+     x="870.19794"
      y="402"
-     id="text72">Bottom pins</text>
+     id="text72"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Bottom pins</text>
   <circle
      class="pin-dot pin-purple"
-     cx="990"
+     cx="872.19794"
      cy="422"
      r="5"
      id="circle72" />
   <text
      class="tiny"
-     x="1006"
+     x="888.19794"
      y="426"
-     id="text73">LROUT</text>
+     id="text73"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">LROUT</text>
   <circle
      class="pin-dot pin-gnd"
-     cx="990"
+     cx="872.19794"
      cy="440"
      r="5"
      id="circle73" />
   <text
      class="tiny"
-     x="1006"
+     x="888.19794"
      y="444"
-     id="text74">AGND</text>
+     id="text74"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">AGND</text>
   <circle
      class="pin-dot pin-purple"
-     cx="990"
+     cx="872.19794"
      cy="458"
      r="5"
      id="circle74" />
   <text
      class="tiny"
-     x="1006"
+     x="888.19794"
      y="462"
-     id="text75">ROUT</text>
+     id="text75"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">ROUT</text>
   <circle
      class="pin-dot pin-3v3"
-     cx="990"
+     cx="872.19794"
      cy="476"
      r="5"
      id="circle75" />
   <text
      class="tiny"
-     x="1006"
+     x="888.19794"
      y="480"
-     id="text76">3.3V</text>
+     id="text76"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">3.3V</text>
   <circle
      class="pin-dot"
-     cx="990"
+     cx="872.19794"
      cy="494"
      r="5"
      id="circle76" />
   <text
      class="tiny"
-     x="1006"
+     x="888.19794"
      y="498"
      id="text77"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">FMT</text>
   <circle
      class="pin-dot pin-3v3"
-     cx="990"
+     cx="872.19794"
      cy="512"
      r="5"
      id="circle77" />
   <text
      class="tiny"
-     x="1006"
+     x="888.19794"
      y="516"
-     id="text78">XSMT</text>
+     id="text78"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">XSMT</text>
   <!-- Amp -->
   <rect
      class="module"
-     x="1130.0999"
+     x="1012.2978"
      y="276.42154"
      width="219.80029"
      height="278.47861"
@@ -960,143 +1027,146 @@
      id="rect78" />
   <text
      class="label"
-     x="1240"
+     x="1122.198"
      y="301"
      text-anchor="middle"
      id="text79"
      style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">PAM8403 Amp</text>
   <text
      class="small"
-     x="1240"
+     x="1122.198"
      y="325"
      text-anchor="middle"
      id="text80"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">GF1002-style board</text>
   <text
      class="tiny"
-     x="1152"
+     x="1034.198"
      y="352"
      id="text81"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Input</text>
   <circle
      class="pin-dot pin-purple"
-     cx="1158"
+     cx="1040.198"
      cy="368"
      r="5"
      id="circle81" />
   <text
      class="tiny"
-     x="1173"
+     x="1055.198"
      y="372"
      id="text82"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">L</text>
   <circle
      class="pin-dot pin-gnd"
-     cx="1158"
+     cx="1040.198"
      cy="386"
      r="5"
      id="circle82" />
   <text
      class="tiny"
-     x="1173"
+     x="1055.198"
      y="392"
      id="text83"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">G</text>
   <circle
      class="pin-dot pin-purple"
-     cx="1158"
+     cx="1040.198"
      cy="406"
      r="5"
      id="circle83" />
   <text
      class="tiny"
-     x="1173"
+     x="1055.198"
      y="410"
      id="text84"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">R</text>
   <text
      class="tiny"
-     x="1154"
+     x="1036.198"
      y="444"
      id="text85"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Power</text>
   <circle
      class="pin-dot pin-5v"
-     cx="1158"
+     cx="1040.198"
      cy="460"
      r="5"
      id="circle85" />
   <text
      class="tiny"
-     x="1173"
+     x="1055.198"
      y="464"
      id="text86"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">+</text>
   <circle
      class="pin-dot pin-gnd"
-     cx="1158"
+     cx="1040.198"
      cy="482"
      r="5"
      id="circle86" />
   <text
      class="tiny"
-     x="1173"
+     x="1055.198"
      y="486"
      id="text87"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">-</text>
   <text
      class="tiny"
-     x="1154"
+     x="1036.198"
      y="512"
-     id="text88">Speaker terminals</text>
+     id="text88"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Speaker terminals</text>
   <circle
      class="pin-dot pin-gray"
-     cx="1158"
+     cx="1040.198"
      cy="532"
      r="5"
      id="circle88" />
   <text
      class="tiny"
-     x="1169"
+     x="1051.198"
      y="536"
      id="text89"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">L+</text>
   <circle
      class="pin-dot pin-gray"
-     cx="1192"
+     cx="1074.198"
      cy="532"
      r="5"
      id="circle89" />
   <text
      class="tiny"
-     x="1207"
+     x="1089.198"
      y="536"
-     id="text90">L-</text>
+     id="text90"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">L-</text>
   <circle
      class="pin-dot pin-gray"
-     cx="1238"
+     cx="1120.198"
      cy="532"
      r="5"
      id="circle90" />
   <text
      class="tiny"
-     x="1247"
+     x="1129.198"
      y="536"
      id="text91"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">R+</text>
   <circle
      class="pin-dot pin-gray"
-     cx="1272"
+     cx="1154.198"
      cy="532"
      r="5"
      id="circle91" />
   <text
      class="tiny"
-     x="1287"
+     x="1169.198"
      y="536"
-     id="text92">R-</text>
+     id="text92"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">R-</text>
   <circle
-     cx="1300"
+     cx="1182.198"
      cy="437"
      fill="#e7edf4"
      stroke="#aab5c5"
@@ -1105,14 +1175,15 @@
      r="28" />
   <text
      class="tiny"
-     x="1300"
+     x="1182.198"
      y="442"
      text-anchor="middle"
-     id="text93">VOL</text>
+     id="text93"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">VOL</text>
   <!-- Speakers -->
   <g
      id="g94"
-     transform="translate(-161.20332,586.40019)">
+     transform="translate(-279.00538,586.40019)">
     <rect
        class="module"
        x="1200"
@@ -1142,7 +1213,8 @@
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Left speaker</text>
   </g>
   <g
-     id="g96">
+     id="g96"
+     transform="translate(-117.80206)">
     <rect
        class="module"
        x="1200"
@@ -1168,11 +1240,13 @@
        x="1270"
        y="832"
        text-anchor="middle"
-       id="text96">Right speaker</text>
+       id="text96"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Right speaker</text>
   </g>
   <!-- Buttons -->
   <g
-     id="g98">
+     id="g98"
+     transform="translate(-117.80206)">
     <rect
        class="module"
        x="160"
@@ -1186,16 +1260,19 @@
        x="255"
        y="598"
        text-anchor="middle"
-       id="text97">OLED button</text>
+       id="text97"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">OLED button</text>
     <text
        class="small"
        x="255"
        y="622"
        text-anchor="middle"
-       id="text98">GPIO23 to GND</text>
+       id="text98"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">GPIO23 to GND</text>
   </g>
   <g
-     id="g100">
+     id="g100"
+     transform="translate(-117.80206)">
     <rect
        class="module"
        x="160"
@@ -1209,18 +1286,20 @@
        x="255"
        y="718"
        text-anchor="middle"
-       id="text99">Power / play button</text>
+       id="text99"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Power / play button</text>
     <text
        class="small"
        x="255"
        y="742"
        text-anchor="middle"
-       id="text100">GPIO24 to GND</text>
+       id="text100"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">GPIO24 to GND</text>
   </g>
   <!-- Capacitors note -->
   <g
      id="g134"
-     transform="translate(14.058795,-412.08898)">
+     transform="translate(-103.74327,-412.08898)">
     <rect
        class="note"
        x="1098"
@@ -1254,7 +1333,7 @@
   <!-- Legend -->
   <g
      id="g1"
-     transform="translate(60.111144,1.3979336)">
+     transform="translate(-57.690919,1.3979336)">
     <rect
        class="legend"
        x="70"
@@ -1377,120 +1456,129 @@
   <!-- Pi to DAC: power and I2S -->
   <path
      class="wire red"
-     d="M 690 360 C 770 432, 782 512, 867 512"
+     d="m 572.19794,360 c 80,72 92,152 177,152"
      id="path112" />
   <path
      class="wire black"
-     d="M 654 420 C 770 522, 780 494, 867 494"
+     d="m 536.19794,420 c 116,102 126,74 213,74"
      id="path113" />
   <path
      class="wire blue"
-     d="M 690 435 C 772 552, 782 440, 867 440"
+     d="m 572.19794,435 c 82,117 92,5 177,5"
      id="path114" />
   <path
      class="wire blue"
-     d="M 654 615 C 790 642, 782 476, 867 476"
+     d="m 536.19794,615 c 136,27 128,-139 213,-139"
      id="path115" />
   <path
      class="wire blue"
-     d="M 690 645 C 806 672, 784 458, 867 458"
+     d="m 572.19794,645 c 116,27 94,-187 177,-187"
      id="path116" />
   <path
      class="wire orange"
-     d="M 990 512 L 968 512 L 968 476 L 985 476"
+     d="m 872.19794,512 h -22 v -36 h 17"
      id="path117" />
   <text
      class="tiny"
-     x="990"
+     x="872.19794"
      y="532"
      id="text118"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">local jumperV</text>
   <!-- DAC to amp analog -->
   <path
      class="wire purple"
-     d="M 995 422 C 1068 402, 1110 378, 1158 368"
+     d="m 877.19794,422 c 73,-20 115,-44 162.99996,-54"
      id="path118" />
   <path
      class="wire black"
-     d="M 995 440 C 1068 430, 1110 398, 1158 386"
+     d="m 877.19794,440 c 73,-10 115,-42 162.99996,-54"
      id="path119" />
   <path
      class="wire purple"
-     d="M 995 458 C 1068 462, 1110 420, 1158 406"
+     d="m 877.19794,458 c 73,4 115,-38 162.99996,-52"
      id="path120" />
   <!-- Pi to amp power -->
   <path
      class="wire red"
-     d="M 690 375 C 930 244, 1060 300, 1158 460"
+     d="m 572.19794,375 c 240,-131 370,-75 467.99996,85"
      id="path121" />
   <path
      class="wire black"
-     d="M 654 420 C 932 690, 1062 640, 1158 482"
+     d="m 536.19794,420 c 278,270 408,220 503.99996,62"
      id="path122" />
   <!-- Amp to speakers -->
   <text
      class="tiny"
-     x="1034.2545"
+     x="916.45245"
      y="691.32104"
      id="text124"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Lout+ / Lout-</text>
   <path
      class="wire gray"
-     d="m 1239.1732,532 c 33,78 47,124 17,166"
+     d="m 1121.3711,532 c 33,78 47,124 17,166"
      id="path124" />
   <path
      class="wire gray"
-     d="m 1272.8487,531.28289 c 33,78 47,124 17,166"
+     d="m 1155.0466,531.28289 c 33,78 47,124 17,166"
      id="path124-5"
      style="fill:none;stroke:#59606d;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" />
   <path
      class="wire gray"
-     d="m 1156.8046,532.53608 c -38.7907,77.88265 -55.2473,123.81345 -19.9831,165.75026"
+     d="m 1039.0025,532.53608 c -38.7907,77.88265 -55.24726,123.81345 -19.9831,165.75026"
      id="path124-3"
      style="fill:none;stroke:#59606d;stroke-width:3.25013;stroke-linecap:round;stroke-linejoin:round" />
   <path
      class="wire gray"
-     d="m 1190.7425,532.75554 c -38.7907,77.88265 -55.2473,123.81345 -19.9831,165.75026"
+     d="m 1072.9404,532.75554 c -38.7907,77.88265 -55.2473,123.81345 -19.9831,165.75026"
      id="path124-3-8"
      style="fill:none;stroke:#59606d;stroke-width:3.25013;stroke-linecap:round;stroke-linejoin:round" />
   <text
      class="tiny"
-     x="1305.8311"
+     x="1188.0291"
      y="690.30701"
      id="text125"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif">Rout+ / Rout-</text>
   <!-- Pi to OLED -->
   <path
      class="wire orange"
-     d="M 653.29804,359.26921 C 610,310 540,240 509.4415,192.72493"
+     d="M 535.49598,359.26921 C 492.19794,310 422.19794,240 391.63944,192.72493"
      id="path125" />
   <path
      class="wire black"
-     d="M 690 450 C 650,330 590,245 554.5929,192.67725"
+     d="m 572.19794,450 c -40,-120 -100,-205 -135.4071,-257.32275"
      id="path126" />
   <path
      class="wire green"
-     d="M 654 375 C 650,300 625,245 601.50806,192.67181"
+     d="m 536.19794,375 c -4,-75 -29,-130 -52.49194,-182.32819"
      id="path127" />
   <path
      class="wire green"
-     d="M 654 390 C 690,308 690,240 652.14563,192.67181"
+     d="m 536.19794,390 c 36,-82 36,-150 -1.85437,-197.32819"
      id="path128" />
   <!-- Pi to buttons -->
   <path
      class="wire brown"
-     d="M 690 465 C 532 582, 462 608, 350 608"
+     d="m 572.19794,465 c -158,117 -228,143 -340,143"
      id="path129" />
   <path
      class="wire black"
-     d="M 690 495 C 535 535, 462 636, 350 636"
+     d="m 572.19794,495 c -155,40 -228,141 -340,141"
      id="path130" />
   <path
      class="wire brown"
-     d="M 690 480 C 525 640, 462 728, 350 728"
+     d="m 572.19794,480 c -165,160 -228,248 -340,248"
      id="path131" />
   <path
      class="wire black"
-     d="M 654 540 C 520 548, 462 756, 350 756"
+     d="m 536.19794,540 c -134,8 -192,216 -304,216"
      id="path132" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Raspberry Pi Zero 2 W piCorePlayer wiring diagram</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
